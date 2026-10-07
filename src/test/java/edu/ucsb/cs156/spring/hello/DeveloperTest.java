@@ -33,7 +33,7 @@ public class DeveloperTest {
     @Test
     public void getTeam_returns_team_with_correct_name() {
         Team  t = Developer.getTeam();
-        assertEquals("404", t.getName());
+        assertEquals("f26-04", t.getName());
     }
     @Test
     public void getTeam_returns_team_with_correct_members() {
